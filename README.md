@@ -1,10 +1,10 @@
-##Curso de Frontend profesional
+## Curso de Frontend profesional
 
-#Instalacion
+# Instalacion
 ```
    npm install fronted
 ```
-#Imagenes
+# Imagenes
 Las Imagenes se debe exportar al doble de resolucion a como las vamos a usar:
 ***Ejemplo***
 uso: 
@@ -14,7 +14,7 @@ uso:
 la exportamos desde cualquier herramienta grafica que se use (Photoshop cmd + alt + shift + s). Width: 90px Height:90px ya con esto le damos soporte
 a patallas co el doble de resolucion.      
 
-#License
+# License
 ```
 Copyright 2017 FABIO ROJAS
 
@@ -26,5 +26,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ```
 
-#Autor
+# Autor
 [FABIO ROJAS](https://twitter.com/#hackchan77)

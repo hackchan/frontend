@@ -11,8 +11,20 @@ uso:
      width:45px
      height:45px
 
-la exportamos desde cualquier herramienta grafica que se use (Photoshop cmd + alt + shift + s). Width: 90px Height:90px ya con esto le damos soporte
-a patallas co el doble de resolucion.      
+la exportamos desde cualquier herramienta grafica que se use 
+( Photoshop cmd + alt + shift + s ). Width: 90px Height:90px ya 
+con esto le damos soporte a pantallas con el doble de resolucion. 
+
+# Llave publica
+La llave publica nos es util para autenticarnos de manera seguro con algun servidor, en este caso la vamos a usar para autenticarnos con github.
+```
+ssh-keygen -t rsa -b 4096 -C "fabiorojas7@gmail.com" 
+```
+el .pub generado lo agregamos en settings / SSH and GPG keys
+y damos click en new SSH key.
+
+cuando bloqueamos un usuario por intentar un maximo de intentos permitidos:
+ssh -o IdentitiesOnly=yes -i id_rsa root@ip
 
 # License
 ```

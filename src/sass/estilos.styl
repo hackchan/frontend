@@ -1,2 +1,46 @@
+@import 'normalize'
+@import 'paleta'
+@import 'header'
+@import 'playing'
+@import 'utility'
+@import 'fonts'
+
+a
+ text-decoration none
+
 body
-  background #CECECE
+  background $blanco
+  font-size 16px
+  font-family 'Varela Round', sans-serif
+
+.container
+  padding 1.4rem
+  font-size 0
+  text-align center
+
+figure
+  margin 0
+
+
+
+
+.song
+  display inline-block
+  background $blanco
+  width 8rem
+  font-size 1rem
+  margin-right 1em
+  margin-bottom 1em
+  text-align left
+  .image img
+    width 128px
+ 
+  &:nth-child(even)
+    margin-right 0
+  p
+    margin .5em 0
+.name
+   color $gris_oscuro
+
+.name
+   color $gris_claro   

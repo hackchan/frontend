@@ -1,0 +1,30 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "description": "curso de frontend.",
+  "main": "index.js",
+  "scripts": {
+    "stylus": "stylus -w  -c src/sass/estilos.styl -o src/css/app.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hackchan/frontend.git"
+  },
+  "keywords": [
+    "curso",
+    "frontend",
+    "css",
+    "html",
+    "javascript"
+  ],
+  "author": "Fabio Rojas <fabiorojas7@gmail.com> (https://twitter.com/@hackchan77)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hackchan/frontend/issues"
+  },
+  "homepage": "https://github.com/hackchan/frontend#readme",
+  "devDependencies": {
+    "nib": "^1.1.2",
+    "stylus": "^0.54.5"
+  }
+}

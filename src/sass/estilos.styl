@@ -1,3 +1,4 @@
+@import 'nib'
 @import 'normalize'
 @import 'paleta'
 @import 'header'
@@ -5,6 +6,9 @@
 @import 'progress'
 @import 'utility'
 @import 'fonts'
+
+//si aperece un nuevo motor por ejemplo mz3g solo es adicionarlo al vendor-prefixes
+//vendor-prefixes = webkit o ms moz official mz3g
 
 a
  text-decoration none
@@ -17,6 +21,11 @@ body
 img
  vertical-align: top 
 
+ul
+  margin 0
+  padding 0 
+  
+
 .container
   padding 1.4rem
   font-size 0
@@ -24,9 +33,6 @@ img
 
 figure
   margin 0
-
-
-
 
 .song
   display inline-block
@@ -48,3 +54,7 @@ figure
 
 .name
    color $gris_claro   
+
+
+
+@import 'device-tables'

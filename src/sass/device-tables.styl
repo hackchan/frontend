@@ -1,0 +1,101 @@
+@media screen and (min-width:480px)
+   
+   .song
+     &:nth-child(even)
+       margin-right 1em
+
+   .playing
+    &.medium
+        width auto
+     .image 
+        img 
+          width:100%    
+
+@media screen and (min-width:1000px)  
+   body
+     background-color $gris_masclaro
+   .playing
+     &.large
+       margin 0 auto
+       width 62.5em
+       overflow hidden
+   .menu
+     display block
+     
+     overflow hidden
+     .item
+        float left
+        list-style none
+        .action
+          font-size 30px   
+        a 
+         color $gris_oscuro
+         text-transform uppercase
+         cursor pointer  
+         padding 1em
+         display block
+         border-top 5px solid transparent 
+         &:hover
+           border-top 5px solid $gris_oscuro 
+   .music
+     .description
+       display none
+     width 32.5em  
+     float left
+   .playinglist
+     width 22em 
+     float right
+     padding 2em
+     border-left 1px solid $gris_oscuro
+     .list
+       list-style none
+       .item
+         padding 1em 0
+         border-bottom 1px solid $gris_oscuro
+         .action
+           font-size 16px
+               
+   .header
+     height auto
+     overflow hidden
+     .button-menu
+        display none
+ 
+     .title
+       display none   
+
+     .logo
+       background white
+       height 30px
+        
+       .user
+         .username
+           color $gris_oscuro
+           position relative
+           top 5px
+           &:after
+             content ""
+             border-left 7px solid transparent
+             border-right 7px solid transparent
+             border-top 7px solid $gris_masclaro
+             margin-left .4em
+             display inline-block
+         .avatar
+           width:35px
+           height:35px
+           margin-right .4em
+           img
+             width:35px
+             height:35px
+             border-radius 50%
+             overflow hidden
+       display block
+       padding 1.3em 0 
+       .image
+         
+         img 
+           width 122px   
+    .image 
+      img 
+        width auto
+            

@@ -4,7 +4,7 @@
   "description": "curso de frontend.",
   "main": "index.js",
   "scripts": {
-    "stylus": "stylus -w  -c src/sass/estilos.styl -o src/css/app.css"
+    "stylus": "stylus -u nib -w  -c src/sass/estilos.styl -o src/css/app.css"
   },
   "repository": {
     "type": "git",
